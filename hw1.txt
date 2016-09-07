@@ -1,0 +1,36 @@
+1a:
+   1, 4, 8
+
+1b:
+   2, 3, 4, 5
+
+1c:
+   2
+
+1d:
+   2, 4
+
+2a:
+   1, 3
+
+2b:
+   1) git add hw1q2b.cpp
+   2) git log -p -3
+   
+2c:
+   The three files that were staged will be committed and
+   made a part of the repository history. Git will also 
+   prompt you for a message.
+   
+4:
+   The correct output given the input [1, 2, 3, 4, 5], 5
+   is [1, 1, 1, 1, 1]. The reason for this is in how the
+   two programs "move" along the existing array from left
+   to right, replacing certain values along the way. First,
+   the first two indicies of the array are flipped, and then
+   the first value is set to 1. Then, this happens again, but
+   this time the first and third values in the array are
+   flipped, moving 3 to the first position and then overwriting
+   it with 1. As this pattern continues and eventually gets to 
+   the end, all five of the values in the array are eventually
+   set to 1, creating the final array of [1, 1, 1, 1, 1].
